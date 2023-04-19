@@ -1,0 +1,48 @@
+<div class="main">
+    <div class="upper-part">
+        <div class="picbox">
+            <img src="{{ items.img }}" alt="" class="product-img">
+        </div>
+
+        <div class="textbox">
+            <span>{{ items.title }}</span>
+        </div>
+
+        <ul class="tagsbox">
+            {{ each items.tags }}
+            <li class="tag">{{ $value }}</li>
+            {{ /each }}
+        </ul>
+
+        <div class="data-info">
+            <span>浏览 {{ items.vistor_counts }}</span>
+            <span>已售 {{ items.sold_counts }}份</span>
+        </div>
+    </div>
+    <div class="lower-part">
+        <div class="intro">
+            <h2 class="intro-title common-title">
+                产品简介
+            </h2>
+            <ul class="intros-ul">
+                {{ each items.intros }}
+                <li class="intro-item">{{ $value }}</li>
+                {{ /each }}
+            </ul>
+        </div>
+        <div class="buy-process">
+            <h2 class="buy-process-title common-title">
+                预定流程
+            </h2>
+            <img src="./images/process.png" alt="" class="process-img">
+        </div>
+        <div class="refund">
+            <h2 class="refund-title common-title">
+                退款流程
+            </h2>
+            <div class="refund-text">
+                {{ items.refund }}
+            </div>
+        </div>
+    </div>
+</div>

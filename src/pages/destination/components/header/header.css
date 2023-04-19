@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 57px;
+    background: url(./background.png) no-repeat;
+    /* 缩放图片以完全覆盖背景区 */
+    background-size: cover;
+}
+
+.header-layout .searchbox {
+    width: 89.333333%;
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+.header-title {
+    margin-bottom: 17px;
+    color: #fff;
+    font-size: 18px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.50);
+}

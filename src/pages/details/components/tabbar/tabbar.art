@@ -1,0 +1,14 @@
+<div class="tabbar">
+    <a href="javascript:;" class="service-btn">
+        <i class="iconfont icon-service"></i>
+        <span>咨询</span>
+    </a>
+    <a href="javascript:;" class="collect-btn">
+        <i class="iconfont icon-collect"></i>
+        <span>收藏</span>
+    </a>
+
+    <a href="javascript:;" class="purchase-btn">
+        立即预定
+    </a>
+</div>

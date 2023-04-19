@@ -1,0 +1,82 @@
+.upper-part {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.picbox {
+    width: 100%;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.textbox {
+    width: 89.333333%;
+    margin: 16px 20px 8px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.tagsbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.tag {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5278A0;
+    border: 1px solid #5278A0;
+    padding: 0 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+    max-width: 100%;
+
+    /* 多行文字省略 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.data-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 12px;
+    color: #999999;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #DADADA;
+}
+
+.intros-ul,
+.refund-text {
+    width: 100%;
+    padding: 30px 20px 40px;
+    font-size: 14px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 24px;
+}
+
+.process-img {
+    width: 80.266666%;
+    margin: 30px 32px 40px 42px;
+}
+
+.common-title {
+    font-size: 20px;
+    color: #333333;
+    line-height: 24px;
+    font-weight: bold;
+    padding-left: 14px;
+    border-left: 6px solid #BF2A2F;
+}

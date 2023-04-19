@@ -1,0 +1,16 @@
+<div class="header">
+    <div class="left">
+        <a href="./index.html" class="back-btn">
+            <i class="iconfont icon-back"></i>
+        </a>
+    </div>
+    <div class="right">
+        <a href="javascript:;" class="collect-btn">
+            <i class="iconfont icon-collect"></i>
+        </a>
+        <a href="javascript:;" class="combined-btn">
+            <img src="./Combined.png" alt="" class="combined-img">
+        </a>
+    </div>
+
+</div>

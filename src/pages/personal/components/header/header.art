@@ -1,0 +1,12 @@
+<div class="header">
+    <div class="bg"></div>
+
+    <div class="portrait">
+        <img src="./images/portrait.png" alt="" class="portrait-img">
+    </div>
+
+    <div class="profile">
+        <span class="name">王豆豆</span>
+        <span class="phone">18911023266</span>
+    </div>
+</div>
